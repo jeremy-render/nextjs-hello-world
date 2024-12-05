@@ -15,6 +15,7 @@ export default function Home() {
 			{instanceInfo && (
 				<pre>{JSON.stringify(instanceInfo, null, 2)}</pre>
 			)}
+			<img src="/handsomeman.png" alt="Test Image" width="200" />
 		</div>
 	);
 }

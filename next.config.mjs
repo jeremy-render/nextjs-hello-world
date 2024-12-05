@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Uncomment the following line to build a static site.
-  // output: "export",
+	// Uncomment the following line to build a static site.
+	// output: "export",
 
-  reactStrictMode: true,
+	reactStrictMode: true,
 };
 
 export default nextConfig;
