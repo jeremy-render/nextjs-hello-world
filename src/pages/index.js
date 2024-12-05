@@ -7,6 +7,13 @@ export default function Home() {
       <Link href="/about">
         About
       </Link>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            console.log("Environment Variables: ${process.env}");
+          `,
+        }}
+      />
     </div>
   );
 }
