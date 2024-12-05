@@ -5,7 +5,7 @@ export default function Home() {
 	const [instanceInfo, setInstanceInfo] = useState(null);
 
 	async function handleClick() {
-		console.log('Calling server action...');
+		await myServerAction("Hello, world!");
 	};
 
 	useEffect(() => {
@@ -24,4 +24,4 @@ export default function Home() {
 			<img src="/handsomeman.png" alt="Test Image" width="200" />
 		</div>
 	);
-}
+};
