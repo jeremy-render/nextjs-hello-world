@@ -6,8 +6,8 @@ export default function Home() {
 
 	async function handleClick() {
 		const response = await myServerAction("Hello, world!");
-		
-		console.log(response);
+
+		console.log(response, 'x');
 	};
 
 	useEffect(() => {
