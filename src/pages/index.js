@@ -16,7 +16,7 @@ export default function Home() {
 
 	return (
 		<div>
-			<h1>Hello from Nexdsdst</h1>
+			<h1>Hello from Nexdsdsdddd</h1>
 			<button onClick={handleClick}>Call Server Action</button>
 			{instanceInfo && (
 				<pre>{JSON.stringify(instanceInfo, null, 2)}</pre>
