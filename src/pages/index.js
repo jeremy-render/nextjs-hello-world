@@ -5,7 +5,7 @@ export default function Home() {
 	const [instanceInfo, setInstanceInfo] = useState(null);
 
 	async function handleClick() {
-		await myServerAction("Test Data");
+		console.log('Calling server action...');
 	};
 
 	useEffect(() => {
